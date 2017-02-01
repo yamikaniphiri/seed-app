@@ -14,7 +14,9 @@ var appSeed = angular.module('appSeed',
                      'd2Services',
                      'd2Controllers',
                      'pascalprecht.translate',
-                     'd2HeaderBar'])
+                     'd2HeaderBar',
+                     'angularUtils.directives.dirPagination'
+                 ])
               
 .value('DHIS2URL', '../'+dhis2.settings.baseUrl)
 
