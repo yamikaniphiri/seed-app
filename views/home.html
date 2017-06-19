@@ -1,4 +1,11 @@
 <div>
-	<img src="img/seed-16x16.png"/>
-	{{'seed_app_header'| translate}}
+    <img src="img/seed-16x16.png"/>
+    {{'seed_app_header'| translate}}
 </div>
+
+<div summernote ng-model="data"></div>
+
+<br>
+<textarea class="multi-files" type="text" ng-model="data" style="width:100%;"></textarea>
+>>>>>{{data}}
+<a ng-click="listen()">click me</a>
